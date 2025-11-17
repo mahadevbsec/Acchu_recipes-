@@ -1,8 +1,1 @@
-{
-  "version": 2,
-  "framework": "create-react-app",
-  "installCommand": "cd client && npm install",
-  "buildCommand": "cd client && npm run build",
-  "outputDirectory": "client/build"
-}
 
