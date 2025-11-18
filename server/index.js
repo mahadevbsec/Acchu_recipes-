@@ -17,9 +17,7 @@ const app = express();
 const allowedOrigins = process.env.CORS_ORIGINS
   ? process.env.CORS_ORIGINS.split(',').map(origin => origin.trim().replace(/\/$/, ''))
   : [
-      'https://recipes-share-8.vercel.app',
-      'https://recipes-share-m.vercel.app',
-      'https://recipes-share.onrender.com',
+      'https://acchu-recipes.onrender.com',
       'http://localhost:3000',
       'http://localhost:3001',
     ];
