@@ -18,8 +18,10 @@ const allowedOrigins = process.env.CORS_ORIGINS
   ? process.env.CORS_ORIGINS.split(',').map(origin => origin.trim().replace(/\/$/, ''))
   : [
       'https://acchu-recipes.vercel.app',
+      'https://acchu-recipes.onrender.com',
       'http://localhost:3000',
       'http://localhost:3001',
+
     ];
 
 const corsOptions = {
